@@ -8,9 +8,10 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
 align-items: center;
+height: 25vh;
 
     @media (max-width: 600px) {
-        flex-direction: column;
+        // flex-direction: column;
         margin: 3% 0;
     }
 
@@ -30,7 +31,8 @@ export default function CharContainer(props) {
   return (
     <Flexbox>
       {people.map((item, index) => {
-      return <CharacterCard character = {item} id = {index}/>;
+      return <CharacterCard character = {item} key = {index}
+      id = {index}/>;
       })}
     </Flexbox>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron as ReactJumbotron, Button } from 'reactstrap';
+import { Jumbotron as ReactJumbotron } from 'reactstrap';
 import styled from 'styled-components';
 
 const Jumbotron = styled(ReactJumbotron)`
@@ -14,7 +14,7 @@ const JumboTron = (props) => {
     <div>
       <Jumbotron>
         <h1 className="display-3">Star Wars Characters</h1>
-        <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
+        <p className="lead">Hi Star Wars fans, look below for some information on your favourite characters!</p>
       </Jumbotron>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-  Card as ReactCard, CardImg, CardText as Text, CardBody, CardLink as Link,
-  CardTitle as Title, CardSubtitle
+  Card as ReactCard, CardText as Text, CardBody, CardLink as Link,
+  CardTitle as Title
 } from 'reactstrap';
 import styled from 'styled-components';
 
@@ -9,6 +9,7 @@ const Card = styled(ReactCard)`
 width: 30%;
 background-color: rgba(255, 172, 104, 0.89);
 margin: 1% 1%;
+height: 100%;
 
     @media (max-width: 600px) {
         width: 80%;
